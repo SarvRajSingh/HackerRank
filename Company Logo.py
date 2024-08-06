@@ -11,7 +11,7 @@ def count_all_chars(string):
     
 
 # Test the function
-string = "Hello, World!"
+string = input()
 char_counts = count_all_chars(string)
 top_3_chars = char_counts.most_common() # it will return a list enclosing tuples
 
