@@ -7,6 +7,6 @@ def arrays():
     return A, B
 
 
-X, Y= arrays()
-print(np.inner(X, Y))
-print(np.outer(X, Y))
+A, B= arrays()
+print(np.inner(A, B))
+print(np.outer(A, B))
